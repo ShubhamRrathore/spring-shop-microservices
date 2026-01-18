@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order-service
+
+  config:
+    import: "configserver:http://localhost:8888"
+
+  logging:
+    level:
+      org.springframework.cloud.config: DEBUG
+      org.springframework.boot.context.config: DEBUG
