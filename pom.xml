@@ -21,8 +21,8 @@
     <module>discovery-server</module>
     <module>api-gateway</module>
       <module>config-server</module>
-<!--    <module>product-service</module>-->
-<!--    <module>order-service</module>-->
+    <module>product-service</module>
+    <module>order-service</module>
 <!--    <module>inventory-service</module>-->
 <!--    <module>notification-service</module>-->
   </modules>
