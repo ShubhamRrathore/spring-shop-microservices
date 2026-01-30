@@ -5,7 +5,11 @@ spring:
   config:
     import: "configserver:http://localhost:8888"
 
-  logging:
-    level:
-      org.springframework.cloud.config: DEBUG
-      org.springframework.boot.context.config: DEBUG
+#resilience4j:
+#  circuitbreaker:
+#    circuit-breaker-aspect-order: 1
+#  ratelimiter:
+#    rate-limiter-aspect-order: 2
+
+
+
